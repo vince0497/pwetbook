@@ -1,5 +1,5 @@
 import { onSnapshot, doc, getDoc, updateDoc } from "firebase/firestore";
-import AddUSer from "../../addUser/AddUSer";
+import AddUSer from "../../addUser/AddUser";
 import "./chatlist.css"
 import { useEffect, useState } from "react"
 import { useUserStore } from "../../../lib/userStore"
